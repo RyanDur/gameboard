@@ -8,7 +8,7 @@ import (
 
 func TestBoard(t *testing.T) {
 	Convey("Given a new board of 3x3", t, func() {
-		board := New(3)
+		board := NewBoard(3)
 
 		Convey("when I enquire the size", func() {
 			size := board.size
