@@ -6,7 +6,7 @@ type Board struct {
 	spaces []string
 }
 
-func NewBoard(size int) *Board {
+func New(size int) *Board {
 	board := new(Board)
 	board.size = size
 	board.spaces = make([]string, size*size)
